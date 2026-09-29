@@ -1,6 +1,8 @@
-streamlit>=1.35
+# Dashboard and analysis scripts
+streamlit>=1.40
 pandas>=2.0
 numpy>=1.24
-networkx>=3.2
+networkx>=3.0      # louvain_communities
+matplotlib>=3.7    # static thesis figures (network_layout.py)
 scipy>=1.10
-matplotlib>=3.7
+plotly>=5.18
