@@ -1,6 +1,32 @@
+# Streamlit theme for the YSocial dashboard. Put this file in a folder
+# called .streamlit next to streamlit_dashboard.py.
+# Options a given Streamlit version doesn't know are ignored with a warning.
+
 [theme]
-primaryColor = "#8B7FE8"
+base = "dark"
+primaryColor = "#8B7CF6"
 backgroundColor = "#0F1117"
-secondaryBackgroundColor = "#1A1D27"
-textColor = "#E5E7EB"
+secondaryBackgroundColor = "#151821"
+textColor = "#F1F3F7"
+borderColor = "#2A2F3A"
+dataframeBorderColor = "#2A2F3A"
+dataframeHeaderBackgroundColor = "#1B1F2A"
+showWidgetBorder = false
+baseRadius = "8px"
 font = "sans serif"
+baseFontSize = 15
+# page title (h1) 36px, section (h3) 24px, card title (h5) 16px
+headingFontSizes = ["2.25rem", "1.75rem", "1.5rem", "1.25rem", "1rem", "0.875rem"]
+headingFontWeights = [600, 600, 600, 600, 500, 500]
+metricValueFontSize = "2.5rem"
+metricValueFontWeight = 500
+# muted KPI badges instead of the default neon green/red
+greenColor = "#3FBF7F"
+redColor = "#E45F65"
+violetColor = "#8B7CF6"
+grayColor = "#6F7785"
+linkColor = "#8B7CF6"
+
+[theme.sidebar]
+backgroundColor = "#151821"
+secondaryBackgroundColor = "#1B1F2A"
